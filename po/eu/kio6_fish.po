@@ -1,0 +1,59 @@
+# Translation for kio5_fish.po to Euskara/Basque (eu).
+# Copyright (C) 2003, 2006 Free Software Foundation, Inc.
+# Copyright (C) 2007-2022 This file is copyright:
+# This file is distributed under the same license as the kio-extras package.
+#
+# marcos  <marcos@euskalgnu.org>, 2003, 2006.
+# Iñigo Salvador Azurmendi <xalba@euskalnet.net>, 2013, 2014, 2022.
+# Hizkuntza Politikarako Sailburuordetza <hizpol@ej-gv.es>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_extras\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-07-08 00:38+0000\n"
+"PO-Revision-Date: 2022-10-21 20:00+0200\n"
+"Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
+"Language-Team: Basque <kde-i18n-eu@kde.org>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 22.08.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: fish.cpp:316
+#, kde-format
+msgid "Connecting..."
+msgstr "Konektatzen..."
+
+#: fish.cpp:642
+#, kde-format
+msgid "Initiating protocol..."
+msgstr "Protokoloa hasten..."
+
+#: fish.cpp:679
+#, kde-format
+msgid "Local Login"
+msgstr "Saio-hasiera lokala"
+
+#: fish.cpp:681
+#, kde-format
+msgid "SSH Authentication"
+msgstr "SSH autentifikazioa"
+
+#: fish.cpp:718 fish.cpp:733
+#, kde-format
+msgctxt "@action:button"
+msgid "Yes"
+msgstr "Bai"
+
+#: fish.cpp:718 fish.cpp:733
+#, kde-format
+msgctxt "@action:button"
+msgid "No"
+msgstr "Ez"
+
+#: fish.cpp:816
+#, kde-format
+msgid "Disconnected."
+msgstr "Deskonektatuta."

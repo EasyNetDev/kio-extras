@@ -1,0 +1,42 @@
+# Burkhard Lück <lueck@hube-lueck.de>, 2014, 2017, 2018, 2019.
+# Alois Spitzbart <spitz234@hotmail.com>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: kio6_mtp\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-09-11 02:01+0000\n"
+"PO-Revision-Date: 2022-11-10 13:29+0100\n"
+"Last-Translator: Alois Spitzbart <spitz234@hotmail.com>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 22.08.2\n"
+
+#: kio_mtp.cpp:221
+#, kde-format
+msgctxt ""
+"Message shown when attempting to access an MTP device that is not fully "
+"accessible yet"
+msgid ""
+"Could not access device. Make sure it is unlocked, and tap \"Allow\" on the "
+"popup on its screen. If that does not work, make sure MTP is enabled in its "
+"USB connection settings."
+msgstr ""
+"Der Zugriff auf das Gerät ist nicht möglich. Es ist sicherzustellen, dass "
+"das Gerät entsperrt ist, und dass im Aufklappfenster auf „Zulassen“ getippt "
+"wurde. Wenn das nicht funktioniert, ist sicherzustellen, dass MTP in den USB-"
+"Verbindungseinstellungen aktiviert ist."
+
+#: kio_mtp.cpp:520
+#, kde-format
+msgid "Cannot copy/move files on the device itself"
+msgstr ""
+"Kopieren/Verschieben von Dateien auf dem Gerät selbst ist nicht möglich"
+
+#~ msgid "No Storages found. Maybe you need to unlock your device?"
+#~ msgstr ""
+#~ "Es wurde kein Speicher gefunden. Möglicherweise müssen Sie Ihr Gerät "
+#~ "entsperren?"

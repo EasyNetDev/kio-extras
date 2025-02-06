@@ -1,0 +1,44 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Adrián Chaves Fernández <adriyetichaves@gmail.com>, 2015, 2017.
+# Adrián Chaves (Gallaecio) <adrian@chaves.io>, 2018, 2019, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-09-11 02:01+0000\n"
+"PO-Revision-Date: 2023-06-17 09:10+0200\n"
+"Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
+"Language-Team: Galician <proxecto@trasno.gal>\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 23.04.2\n"
+
+#: kio_mtp.cpp:221
+#, kde-format
+msgctxt ""
+"Message shown when attempting to access an MTP device that is not fully "
+"accessible yet"
+msgid ""
+"Could not access device. Make sure it is unlocked, and tap \"Allow\" on the "
+"popup on its screen. If that does not work, make sure MTP is enabled in its "
+"USB connection settings."
+msgstr ""
+"Non foi posíbel acceder ao dispositivo. Asegúrese de que estea desbloqueado "
+"e de premer «Permitir» no diálogo emerxente que aparecerá no dispositivo. Se "
+"non funciona, asegúrese de que MTP está activado na configuración de "
+"conexión por USB."
+
+#: kio_mtp.cpp:520
+#, kde-format
+msgid "Cannot copy/move files on the device itself"
+msgstr "Non é posíbel copiar nin mover os ficheiros no dispositivo en si."
+
+#~ msgid "No Storages found. Maybe you need to unlock your device?"
+#~ msgstr ""
+#~ "Non se atopou ningún sistema de almacenamento. Pode ser que necesite "
+#~ "desbloquear o dispositivo."

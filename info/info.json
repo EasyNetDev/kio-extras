@@ -1,0 +1,15 @@
+{
+    "KDE-KIO-Protocols": {
+        "info": {
+            "Class": ":local",
+            "Icon": "help-contents",
+            "X-DocPath": "kioworker6/info/index.html",
+            "defaultMimetype": "text/html",
+            "determineMimetypeFromExtension": false,
+            "input": "none",
+            "output": "filesystem",
+            "protocol": "info",
+            "reading": true
+        }
+    }
+}

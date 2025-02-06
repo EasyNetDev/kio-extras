@@ -1,0 +1,36 @@
+<!DOCTYPE node PUBLIC
+"-//freedesktop//DTD D-BUS Object Introspection 1.0//EN"
+"http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+
+<!--
+    This file is part of the KMTP framework, part of the KDE project.
+
+    SPDX-FileCopyrightText: 2018 Andreas Krutzler <andreas.krutzler@gmx.net>
+
+    SPDX-License-Identifier: LGPL-2.1-only OR LGPL-3.0-only OR LicenseRef-KDE-Accepted-LGPL
+-->
+
+<node name="/" xmlns:doc="http://www.freedesktop.org/dbus/1.0/doc.dtd">
+
+    <!-- org.kde.kmtp.Daemon:
+        @short_description: KMTP daemon access API
+
+        This D-Bus interface is used to access the KMTP daemon.
+    -->
+    <interface name="org.kde.kmtp.Daemon">
+
+        <!-- version: The libmtp version.
+        -->
+        <property name="version" type="s" access="read"/>
+
+        <!-- listDevices: The currently discovered and connected devices in the daemon.
+            @devices: A list of the currently accessible devices represented as an array of D-Bus object paths.
+        -->
+        <method name="listDevices">
+            <arg direction="out" type="ao" name="devices" />
+        </method>
+
+        <signal name="devicesChanged" />
+
+	</interface>
+</node>

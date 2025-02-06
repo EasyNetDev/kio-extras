@@ -1,0 +1,22 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+
+%:
+	dh $@
+
+override_dh_auto_configure:
+	dh_auto_configure -Skf6 -- -DBUILD_TESTING=OFF
+
+override_dh_auto_test:
+	# Tests require a registered logind session. :/
+	# If you are reading this, your help is needed to make this work in
+	# a reproduceable way either in the buildds or in the autopkgtests
+	# servers
+	# xvfb-run -a dh_auto_test
+
+execute_after_dh_auto_install:
+	# drop development stuff
+	rm -rf debian/tmp/usr/include/
+	rm -rf debian/tmp/usr/lib/*/cmake/

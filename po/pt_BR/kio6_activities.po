@@ -1,0 +1,68 @@
+# Translation of kactivities5.po to Brazilian Portuguese
+# Copyright (C) 2016 This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# André Marcelo Alvarenga <alvarenga@kde.org>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: kactivities5\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-12-27 01:34+0000\n"
+"PO-Revision-Date: 2016-03-09 08:08-0300\n"
+"Last-Translator: André Marcelo Alvarenga <alvarenga@kde.org>\n"
+"Language-Team: Brazilian Portuguese <kde-i18n-pt_br@kde.org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: fileitemplugin/FileItemLinkingPlugin.cpp:88 KioActivities.cpp:176
+#, kde-format
+msgid "Activities"
+msgstr "Atividades"
+
+#: fileitemplugin/FileItemLinkingPlugin.cpp:91
+#, kde-format
+msgid "Loading..."
+msgstr "Carregando..."
+
+#: fileitemplugin/FileItemLinkingPlugin.cpp:108
+#, kde-format
+msgid "The Activity Manager is not running"
+msgstr "O Gerenciador de Atividades não está em execução."
+
+#: fileitemplugin/FileItemLinkingPluginActionLoader.cpp:51
+#: fileitemplugin/FileItemLinkingPluginActionLoader.cpp:110
+#, kde-format
+msgid "Link to the current activity"
+msgstr "Vincular à atividade atual"
+
+#: fileitemplugin/FileItemLinkingPluginActionLoader.cpp:52
+#: fileitemplugin/FileItemLinkingPluginActionLoader.cpp:113
+#, kde-format
+msgid "Unlink from the current activity"
+msgstr "Desvincular da atividade atual"
+
+#: fileitemplugin/FileItemLinkingPluginActionLoader.cpp:54
+#: fileitemplugin/FileItemLinkingPluginActionLoader.cpp:116
+#, kde-format
+msgid "Link to:"
+msgstr "Vincular à:"
+
+#: fileitemplugin/FileItemLinkingPluginActionLoader.cpp:59
+#: fileitemplugin/FileItemLinkingPluginActionLoader.cpp:123
+#, kde-format
+msgid "Unlink from:"
+msgstr "Desvincular de:"
+
+#: KioActivities.cpp:108
+#, kde-format
+msgid "Current activity"
+msgstr "Atividade atual"
+
+#: KioActivities.cpp:109 KioActivitiesApi.cpp:86
+#, kde-format
+msgid "Activity"
+msgstr "Atividade"

@@ -1,0 +1,156 @@
+{
+    "KDE-KIO-Protocols": {
+        "recentlyused": {
+            "Class": ":local",
+            "ExtraNames": [
+                "Application"
+            ],
+            "ExtraNames[ar]": [
+                "التطبيق"
+            ],
+            "ExtraNames[be]": [
+                "Праграма"
+            ],
+            "ExtraNames[bg]": [
+                "Приложение"
+            ],
+            "ExtraNames[ca@valencia]": [
+                "Aplicació"
+            ],
+            "ExtraNames[ca]": [
+                "Aplicació"
+            ],
+            "ExtraNames[cs]": [
+                "Aplikace"
+            ],
+            "ExtraNames[de]": [
+                "Anwendung"
+            ],
+            "ExtraNames[en_GB]": [
+                "Application"
+            ],
+            "ExtraNames[eo]": [
+                "Aplikaĵo"
+            ],
+            "ExtraNames[es]": [
+                "Aplicación"
+            ],
+            "ExtraNames[eu]": [
+                "Aplikazioa"
+            ],
+            "ExtraNames[fi]": [
+                "Sovellus"
+            ],
+            "ExtraNames[fr]": [
+                "Application"
+            ],
+            "ExtraNames[gl]": [
+                "Aplicación"
+            ],
+            "ExtraNames[he]": [
+                "יישום"
+            ],
+            "ExtraNames[hu]": [
+                "Alkalmazás"
+            ],
+            "ExtraNames[ia]": [
+                "Application"
+            ],
+            "ExtraNames[is]": [
+                "Forrit"
+            ],
+            "ExtraNames[it]": [
+                "Applicazione"
+            ],
+            "ExtraNames[ja]": [
+                "アプリケーション"
+            ],
+            "ExtraNames[ka]": [
+                "აპლიკაცია"
+            ],
+            "ExtraNames[ko]": [
+                "앱"
+            ],
+            "ExtraNames[lt]": [
+                "Programa"
+            ],
+            "ExtraNames[nl]": [
+                "Toepassing"
+            ],
+            "ExtraNames[nn]": [
+                "Program"
+            ],
+            "ExtraNames[pa]": [
+                "ਐਪਲੀਕੇਸ਼ਨ"
+            ],
+            "ExtraNames[pl]": [
+                "Aplikacja"
+            ],
+            "ExtraNames[pt_BR]": [
+                "Aplicativo"
+            ],
+            "ExtraNames[ro]": [
+                "Aplicație"
+            ],
+            "ExtraNames[ru]": [
+                "Приложение"
+            ],
+            "ExtraNames[sk]": [
+                "Aplikácia"
+            ],
+            "ExtraNames[sl]": [
+                "Aplikacija"
+            ],
+            "ExtraNames[sv]": [
+                "Program"
+            ],
+            "ExtraNames[ta]": [
+                "செயலி"
+            ],
+            "ExtraNames[tr]": [
+                "Uygulama"
+            ],
+            "ExtraNames[uk]": [
+                "Програма"
+            ],
+            "ExtraNames[x-test]": [
+                "xxApplicationxx"
+            ],
+            "ExtraNames[zh_CN]": [
+                "应用程序"
+            ],
+            "ExtraNames[zh_TW]": [
+                "應用程式"
+            ],
+            "ExtraTypes": [
+                "QString"
+            ],
+            "Icon": "document-open-recent",
+            "X-DocPath": "kioworker6/recentlyused/index.html",
+            "copyFromFile": false,
+            "copyToFile": false,
+            "deleting": false,
+            "input": "none",
+            "linking": false,
+            "listing": [
+                "Name",
+                "Type",
+                "Size",
+                "Date",
+                "Access",
+                "Owner",
+                "Group",
+                "Link",
+                "Extra1"
+            ],
+            "makedir": false,
+            "maxInstances": 1,
+            "maxInstancesPerHost": 1,
+            "moving": false,
+            "output": "filesystem",
+            "protocol": "recentlyused",
+            "reading": false,
+            "writing": true
+        }
+    }
+}

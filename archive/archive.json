@@ -1,0 +1,127 @@
+{
+    "KDE-KIO-Protocols": {
+        "ar": {
+            "Class": "local",
+            "Icon": "package-x-generic",
+            "archiveMimetype": [
+                "application/x-archive"
+            ],
+            "copyFromFile": false,
+            "copyToFile": true,
+            "deleting": false,
+            "input": "filesystem",
+            "linking": false,
+            "listing": [
+                "Name",
+                "Type",
+                "Size",
+                "Date",
+                "Access",
+                "Owner",
+                "Group",
+                "Link"
+            ],
+            "makedir": false,
+            "moving": false,
+            "output": "filesystem",
+            "protocol": "ar",
+            "reading": true,
+            "source": true,
+            "writing": false
+        },
+        "sevenz": {
+            "Class": "local",
+            "Icon": "package-x-generic",
+            "archiveMimetype": [
+                "application/x-7z-compressed"
+            ],
+            "copyFromFile": false,
+            "copyToFile": true,
+            "deleting": false,
+            "input": "filesystem",
+            "linking": false,
+            "listing": [
+                "Name",
+                "Type",
+                "Size",
+                "Date",
+                "Access",
+                "Owner",
+                "Group",
+                "Link"
+            ],
+            "makedir": false,
+            "moving": false,
+            "output": "filesystem",
+            "protocol": "sevenz",
+            "reading": true,
+            "source": true,
+            "writing": false
+        },
+        "tar": {
+            "Class": "local",
+            "Icon": "package-x-generic",
+            "X-DocPath": "kioworker6/tar/index.html",
+            "archiveMimetype": [
+                "application/x-tar",
+                "application/x-compressed-tar",
+                "application/x-bzip-compressed-tar",
+                "application/x-webarchive",
+                "application/x-lzma-compressed-tar",
+                "application/x-xz-compressed-tar",
+                "application/x-zstd-compressed-tar"
+            ],
+            "copyFromFile": false,
+            "copyToFile": true,
+            "deleting": false,
+            "input": "filesystem",
+            "linking": false,
+            "listing": [
+                "Name",
+                "Type",
+                "Size",
+                "Date",
+                "Access",
+                "Owner",
+                "Group",
+                "Link"
+            ],
+            "makedir": false,
+            "moving": false,
+            "output": "filesystem",
+            "protocol": "tar",
+            "reading": true,
+            "source": true,
+            "writing": false
+        },
+        "zip": {
+            "Class": "local",
+            "Icon": "package-x-generic",
+            "archiveMimetype": [
+                "application/zip"
+            ],
+            "copyFromFile": false,
+            "copyToFile": true,
+            "deleting": false,
+            "input": "filesystem",
+            "linking": false,
+            "listing": [
+                "Name",
+                "Type",
+                "Size",
+                "Date",
+                "Access",
+                "Owner",
+                "Group",
+                "Link"
+            ],
+            "makedir": false,
+            "moving": false,
+            "output": "filesystem",
+            "protocol": "zip",
+            "reading": true,
+            "source": true,
+            "writing": false
+        }
+    }
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<!DOCTYPE article PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN"
+"dtd/kdedbx45.dtd" [
+<!ENTITY % addindex "IGNORE">
+<!ENTITY % French "INCLUDE"
+> <!-- change language only here -->
+]>
+	
+<article lang="&language;" id="xz">
+<title
+>xz / lzma</title>
+<articleinfo>
+<authorgroup>
+<author
+><firstname
+>Per Øyvind</firstname
+><surname
+> Karlsen</surname
+></author>
+&traducteurLudovicGrossard; 
+</authorgroup>
+</articleinfo>
+
+<para
+>« xz » est un programme de compression</para>
+
+<para
+>Le module d'entrées-sorties « xz » n'est pas utilisable directement. Il est conçu pour être utilisé comme un filtre. Par exemple, le module d'entrées /  sorties « tar » peut filtrer un fichier à travers le module d'entrées-sorties « xz », afin d'afficher le contenu d'un fichier <literal role="extension"
+>tar.lzma</literal
+> ou <literal role="extension"
+>tar.xz</literal
+> directement dans la fenêtre de &konqueror;.</para>
+
+<para
+>Si vous cliquez sur un fichier compressé avec <literal role="extension"
+>.lzma</literal
+> ou <literal role="extension"
+>tar.xz</literal
+> dans &konqueror;, ce module d'entrées-sorties « xz » est utilisé pour le décompresser et l'afficher comme s'il s'agissait d'un fichier normal (non compressé).</para>
+
+<para
+>Si vous faites partie d'une équipe de développement et souhaitez utiliser le filtre « xz », vous pouvez trouver de la documentation sur l'utilisation des modules d'entrées / sorties sur le site <ulink url="http://techbase.kde.org"
+>http://techbase.kde.org</ulink
+></para>
+
+<para
+>Consultez le manuel de <ulink url="man:/xz"
+>xz</ulink
+>. </para>
+
+</article>

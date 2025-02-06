@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<!DOCTYPE article PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN"
+"dtd/kdedbx45.dtd" [
+<!ENTITY % addindex "IGNORE">
+<!ENTITY % Spanish "INCLUDE"
+> <!-- change language only here -->
+]>
+	
+<article lang="&language;" id="thumbnail">
+<title
+>thumbnail</title>
+<articleinfo>
+<authorgroup>
+<author
+>&Carsten.Pfeiffer; &Carsten.Pfeiffer.mail;</author>
+<othercredit role="translator"
+> <firstname
+>Marcos</firstname
+> <surname
+>Fouces Lago</surname
+> <affiliation
+><address
+><email
+>mfouces@yahoo.es</email
+></address
+></affiliation
+> <contrib
+>Traductor</contrib
+> </othercredit
+> 
+</authorgroup>
+<date
+>2016-12-11</date>
+<releaseinfo
+>Aplicaciones 16.12</releaseinfo>
+</articleinfo>
+<para
+>El módulo de trabajo KIO thumbnail es usado por &kde; para la generación persistente y transparente a la red de miniaturas.</para>
+
+<para
+>El módulo de trabajo KIO thumbnail usa extensiones para generar las miniaturas reales. Puede activar la visión de estas miniaturas desde el submenú <menuchoice
+><guimenu
+>Ver</guimenu
+> <guisubmenu
+>Vista previa</guisubmenu
+></menuchoice
+>, disponible en &dolphin; o en &konqueror; en modo administrador de archivos.</para>
+
+<para
+>El usuario no puede usar directamente el módulo de trabajo KIO thumbnail , pero si usted es un desarrollador, puede usarlo desde dentro de sus propias aplicaciones para crear vistas previas de archivos.</para>
+
+<para
+>Consulte la documentación en las fuentes para obtener más información. La encontrará en la carpeta de origen <ulink url="https://commits.kde.org/kio-extras?path=thumbnail"
+>thumbnail</ulink
+>. </para>
+
+</article>

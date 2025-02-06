@@ -1,0 +1,66 @@
+# Translation of kio_fish.po to Hebrew
+# KDE Hebrew Localization Project
+#
+# In addition to the copyright owners of the program
+# which this translation accompanies, this translation is
+# Copyright (C) 2003 Meni Livne <livne@kde.org>
+#
+# This translation is subject to the same Open Source
+# license as the program which it accompanies.
+#
+# tahmar1900 <tahmar1900@gmail.com>, 2006.
+# Meni Livne <livne@kde.org>, 2007.
+# Diego Iastrubni <elcuco@kde.org>, 2012.
+# Elkana Bardugo <ttv200@gmail.com>, 2017. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: kio5_fish\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-07-08 00:38+0000\n"
+"PO-Revision-Date: 2023-10-22 23:38+0300\n"
+"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+"Language-Team: Hebrew <kde-i18n-doc@kde.org>\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
+"n % 10 == 0) ? 2 : 3));\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#: fish.cpp:316
+#, kde-format
+msgid "Connecting..."
+msgstr "מתבצעת התחברות…"
+
+#: fish.cpp:642
+#, kde-format
+msgid "Initiating protocol..."
+msgstr "הפרוטקול מופעל…"
+
+#: fish.cpp:679
+#, kde-format
+msgid "Local Login"
+msgstr "כניסה מקומית"
+
+#: fish.cpp:681
+#, kde-format
+msgid "SSH Authentication"
+msgstr "אימות SSH"
+
+#: fish.cpp:718 fish.cpp:733
+#, kde-format
+msgctxt "@action:button"
+msgid "Yes"
+msgstr "כן"
+
+#: fish.cpp:718 fish.cpp:733
+#, kde-format
+msgctxt "@action:button"
+msgid "No"
+msgstr "לא"
+
+#: fish.cpp:816
+#, kde-format
+msgid "Disconnected."
+msgstr "מנותק."

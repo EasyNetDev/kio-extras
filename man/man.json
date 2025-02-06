@@ -1,0 +1,19 @@
+{
+    "KDE-KIO-Protocols": {
+        "man": {
+            "Class": ":local",
+            "Icon": "help-contents",
+            "X-DocPath": "kioworker6/man/index.html",
+            "defaultMimetype": "text/html",
+            "determineMimetypeFromExtension": false,
+            "input": "none",
+            "listing": [
+                "Name"
+            ],
+            "maxInstances": 10,
+            "output": "filesystem",
+            "protocol": "man",
+            "reading": true
+        }
+    }
+}

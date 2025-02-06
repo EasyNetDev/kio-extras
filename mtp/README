@@ -1,0 +1,32 @@
+kio-mtp: KIO worker to access MTP devices
+========================================
+
+This KIO worker enables KDE applications to access
+files stored on devices that provide access to them
+via the MTP protocol.
+
+Usage
+-----
+
+To list all currently connected devices, just type
+mtp:/ in the addressbar of your preferred KDE filebrowser.
+
+Using the scheme mtp:udi=<udi> you can access the
+device using their unique device identifier as provided
+by Solid.
+
+A Device Notificator Desktop-File is also provided that
+enables you to access the device directly from there.
+
+
+Bugs
+----
+
+Please report all bugs to the KDE Bugzilla at https://bugs.kde.org
+using the product "kio" with the component "mtp".
+
+
+Contact
+-------
+
+If you want to get in contact with me drop me an email: philschmidt@gmx.net

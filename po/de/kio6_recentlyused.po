@@ -1,0 +1,63 @@
+# German translations for kio-extras package
+# German translation for kio-extras.
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the kio-extras package.
+# SPDX-FileCopyrightText: 2024 Johannes Obermayr <johannesobermayr@gmx.de>
+# Automatically generated, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kio6_recentlyused\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-09-16 00:39+0000\n"
+"PO-Revision-Date: 2024-08-26 18:51+0200\n"
+"Last-Translator: Johannes Obermayr <johannesobermayr@gmx.de>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 24.05.2\n"
+
+#: forgetfileitemaction.cpp:46
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Forget File"
+msgid_plural "Forget Files"
+msgstr[0] "Datei vergessen"
+msgstr[1] "Dateien vergessen"
+
+#: forgetfileitemaction.cpp:48
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Forget Location"
+msgid_plural "Forget Locations"
+msgstr[0] "Ort vergessen"
+msgstr[1] "Orte vergessen"
+
+#: forgetfileitemaction.cpp:52
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Remove the selected file(s) or location(s) from the recently used list in "
+"Dolphin and in Plasma's menus. This does not remove or move the resource(s)."
+msgstr ""
+"Die ausgewählte(n) Datei(en) oder Ort(e) aus den „Zuletzt“-Listen in den "
+"Dolphin- und Plasma-Menüs entfernen. Dadurch werden die Ressourcen nicht "
+"verschoben oder gelöscht."
+
+#: recentlyused.cpp:321
+#, kde-format
+msgid "Recent Documents"
+msgstr "Zuletzt geöffnete Dokumente"
+
+#: recentlyused.cpp:329
+#, kde-format
+msgid "Recent Files"
+msgstr "Zuletzt geöffnete Dateien"
+
+#: recentlyused.cpp:332
+#, kde-format
+msgid "Recent Locations"
+msgstr "Zuletzt verwendete Orte"

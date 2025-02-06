@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<!DOCTYPE article PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN"
+"dtd/kdedbx45.dtd" [
+<!ENTITY % addindex "IGNORE">
+<!ENTITY % Italian "INCLUDE"
+> <!-- change language only here -->
+]>
+	
+<article lang="&language;" id="gzip">
+<title
+>gzip</title>
+<articleinfo>
+<authorgroup>
+<author
+>&Lauri.Watts; &Lauri.Watts.mail;</author>
+<othercredit role="translator"
+><firstname
+>Luciano</firstname
+> <surname
+>Montanaro</surname
+> <affiliation
+><address
+><email
+>mikelima@cirulla.net</email
+></address
+></affiliation
+> <contrib
+>Traduzione del documento</contrib
+></othercredit
+> 
+</authorgroup>
+</articleinfo>
+
+<para
+><command
+>gzip</command
+> è un programma di compressione</para>
+
+<para
+>Il worker KIO gzip non è usabile direttamente, perché è fatto per essere usato come filtro. Per esempio, il worker KIO tar può far filtrare un file attraverso il worker KIO gzip per poter mostrare il contenuto di un archivio<literal role="extension"
+>tar.gz</literal
+> direttamente in una finestra di &konqueror;.</para>
+
+<para
+>Se fai clic su un file compresso con un'estensione <literal role="extension"
+>gz</literal
+> in &konqueror;, questo worker KIO viene utilizzato per decomprimerlo e visualizzarlo come un normale file (non compresso).</para>
+
+<para
+>Se sei uno sviluppatore e desideri utilizzare il filtro gzip, puoi trovare la documentazione sull'uso dei worker KIO su <ulink url="http://techbase.kde.org"
+>http://techbase.kde.org</ulink
+></para>
+
+<para
+>Vedi anche il manuale: <ulink url="man:/gzip"
+>gzip</ulink
+>. </para>
+
+</article>

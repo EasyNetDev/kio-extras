@@ -1,0 +1,30 @@
+{
+    "KDE-KIO-Protocols": {
+        "activities": {
+            "Class": ":local",
+            "Icon": "folder-activities",
+            "deleting": false,
+            "input": "none",
+            "linking": false,
+            "listing": [
+                "Name",
+                "Type",
+                "Size",
+                "Date",
+                "AccessDate",
+                "Access",
+                "Owner",
+                "Group",
+                "Link"
+            ],
+            "makedir": false,
+            "maxInstances": 100,
+            "moving": false,
+            "output": "filesystem",
+            "protocol": "activities",
+            "reading": true,
+            "source": false,
+            "writing": false
+        }
+    }
+}

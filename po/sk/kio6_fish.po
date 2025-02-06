@@ -1,0 +1,56 @@
+# translation of kio_fish.po to Slovak
+# Stanislav Visnovsky <visnovsky@kde.org>, 2004.
+# Michal Sulek <misurel@gmail.com>, 2009.
+# Roman Paholík <wizzardsk@gmail.com>, 2012.
+# Ferdinand Galko <galko.ferdinand@gmail.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_fish\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-07-08 00:38+0000\n"
+"PO-Revision-Date: 2023-06-16 21:54+0200\n"
+"Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
+"Language-Team: Slovak <opensuse-translation@opensuse.org>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 21.12.3\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: fish.cpp:316
+#, kde-format
+msgid "Connecting..."
+msgstr "Pripájanie..."
+
+#: fish.cpp:642
+#, kde-format
+msgid "Initiating protocol..."
+msgstr "Iniciovanie protokolu..."
+
+#: fish.cpp:679
+#, kde-format
+msgid "Local Login"
+msgstr "Lokálne prihlásenie"
+
+#: fish.cpp:681
+#, kde-format
+msgid "SSH Authentication"
+msgstr "SSH overenie"
+
+#: fish.cpp:718 fish.cpp:733
+#, kde-format
+msgctxt "@action:button"
+msgid "Yes"
+msgstr "Áno"
+
+#: fish.cpp:718 fish.cpp:733
+#, kde-format
+msgctxt "@action:button"
+msgid "No"
+msgstr "Nie"
+
+#: fish.cpp:816
+#, kde-format
+msgid "Disconnected."
+msgstr "Odpojený."

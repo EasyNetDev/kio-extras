@@ -1,0 +1,28 @@
+{
+    "KDE-KIO-Protocols": {
+        "afc": {
+            "Class": ":internet",
+            "Icon": "smartphone",
+            "deleting": true,
+            "input": "none",
+            "linking": false,
+            "listing": [
+                "Name",
+                "Type",
+                "Size",
+                "Date"
+            ],
+            "makedir": true,
+            "maxInstances": 5,
+            "maxInstancesPerHost": 1,
+            "moving": true,
+            "opening": true,
+            "output": "filesystem",
+            "permissions": false,
+            "protocol": "afc",
+            "reading": true,
+            "truncating": true,
+            "writing": true
+        }
+    }
+}

@@ -1,0 +1,9 @@
+# private library
+kio-extras: package-name-doesnt-match-sonames libkioarchive6-6
+# private library
+kio-extras: no-symbols-control-file
+
+kio-extras: desktop-command-not-in-package kcmshell6 [usr/share/applications/kcm_trash.desktop]
+kio-extras: desktop-command-not-in-package kcmshell6 [usr/share/applications/kcm_webshortcuts.desktop]
+kio-extras: desktop-command-not-in-package systemsettings [usr/share/applications/kcm_netpref.desktop]
+kio-extras: desktop-command-not-in-package systemsettings [usr/share/applications/kcm_proxy.desktop]

@@ -1,0 +1,88 @@
+Source: kio-extras
+Section: kde
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Aurélien COUDERC <coucouf@debian.org>,
+           Pino Toscano <pino@debian.org>,
+Build-Depends: debhelper-compat (= 13),
+               dh-sequence-kf6,
+               cmake (>= 3.16~),
+               extra-cmake-modules (>= 6.0.0~),
+               gettext,
+               gperf,
+               libappimage-dev (>= 0.1.10~) [linux-any],
+               libimobiledevice-dev,
+               libkexiv2qt6-dev,
+               libkdsoap-dev (>= 1.9.0~),
+               libkf6archive-dev (>= 6.0.0~),
+               libkf6codecs-dev,
+               libkf6config-dev (>= 6.0.0~),
+               libkf6configwidgets-dev (>= 6.0.0~),
+               libkf6coreaddons-dev (>= 6.0.0~),
+               libkf6dbusaddons-dev (>= 6.0.0~),
+               libkf6dnssd-dev (>= 6.0.0~),
+               libkf6doctools-dev (>= 6.0.0~),
+               libkf6guiaddons-dev (>= 6.0.0~),
+               libkf6i18n-dev (>= 6.0.0~),
+               libkf6kcmutils-dev (>= 6.0.0~),
+               libkf6kio-dev (>= 6.0.0~),
+               libkf6solid-dev (>= 6.0.0~),
+               libkf6syntaxhighlighting-dev (>= 6.0.0~),
+               libkf6textwidgets-dev (>= 6.0.0~),
+               libmtp-dev (>= 1.1.2~),
+               libopenexr-dev (>= 3.0~),
+               libphonon4qt6-dev (>= 4:4.6.60~),
+               libphonon4qt6experimental-dev (>= 4:4.12.0~),
+               libplasmaactivities-dev,
+               libplasmaactivitiesstats-dev,
+               libplist-dev,
+               libsmbclient-dev,
+               libssh-dev (>= 0.8.3~),
+               libtag-dev (>= 1.11~),
+               libtirpc-dev,
+               libxcursor-dev,
+               pkgconf,
+               qcoro-qt6-dev,
+               qt6-5compat-dev (>= 6.5.0~),
+               qt6-base-dev (>= 6.5.0+dfsg~),
+               qt6-svg-dev (>= 6.5.0~),
+               shared-mime-info (>= 1.3~),
+Standards-Version: 4.7.0
+Homepage: https://projects.kde.org/projects/kde/workspace/kio-extras
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/kio-extras
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/kio-extras.git
+Rules-Requires-Root: no
+
+Package: kio-extras
+Architecture: any
+Depends: kio-extras-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Recommends: libkf6kcmutils-bin,
+            systemsettings,
+Breaks: kio (<< 5.115.0-7~),
+        kio-extras-data (<< 4:24.08.0-3~),
+Replaces: kio (<< 5.115.0-7~),
+          kio-extras-data (<< 4:24.08.0-3~),
+Description: Extra functionality for kioslaves
+ A kioslave is a plugin designed to be intimately familiar with a certain
+ protocol, so that a standardized interface can be used to get at data from
+ any number of places.  A few examples are the http and ftp kioslaves,
+ which using nearly identical methods will retrieve data from an http or
+ ftp server respectively.
+ .
+ This package is part of the KDE base workspace module.
+
+Package: kio-extras-data
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends},
+Breaks: kio-mtp (<< 0.75+git20140304-1ubuntu1~),
+Replaces: kio-mtp (<< 0.75+git20140304-1ubuntu1~),
+Description: Extra functionality for kioslaves data files
+ A kioslave is a plugin designed to be intimately familiar with a certain
+ protocol, so that a standardized interface can be used to get at data from
+ any number of places.  A few examples are the http and ftp kioslaves,
+ which using nearly identical methods will retrieve data from an http or
+ ftp server respectively.
+ .
+ This package contains the data files.

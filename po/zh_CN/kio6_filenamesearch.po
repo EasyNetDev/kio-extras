@@ -1,0 +1,29 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-11-04 00:39+0000\n"
+"PO-Revision-Date: 2024-07-20 09:38\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf6-stable/messages/kio-extras/kio6_filenamesearch.pot\n"
+"X-Crowdin-File-ID: 54974\n"
+
+#: kio_filenamesearch.cpp:105
+#, kde-format
+msgid "Search Folder"
+msgstr "搜索文件夹"
+
+#: kio_filenamesearch.cpp:358
+#, kde-format
+msgctxt "@info:%1 is the program used to do the search"
+msgid "%1 failed, exit code: %2, error messages: %3"
+msgstr "%1 失败，退出代码：%2，错误消息：%3"

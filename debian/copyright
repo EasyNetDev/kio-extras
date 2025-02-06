@@ -1,0 +1,620 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: kio-extras
+Source: git://anongit.kde.org/kio-extras
+Upstream-Contact: kde-devel@kde.org
+
+Files: *
+Copyright: 2000, Alexander Neundorf <neundorf@kde.org>
+           2016, Alexander Volkov <a.volkov@rusbitech.ru>
+           2008, Andre Gemünd <scroogie@gmail.com>
+           2009, Andreas Schneider <mail@cynapses.org>
+           2004, Brad Hards <bradh@frogmouth.net>
+           2000-2002, Carsten Pfeiffer <pfeiffer@kde.org>
+           2000-2007, David Faure <faure@kde.org>
+           2001, Dawit Alemayehu <adawit@kde.org>
+           2003, Fredrik Höglund <fredrik@kde.org>
+           2015, Friedrich W. H. Kossebau <kossebau@kde.org>
+           2020-2022, Harald Sitter <sitter@kde.org>
+           2022, Kai Uwe Broulik <kde@broulik.de>
+           2001, Lucas Fisher <ljfisher@purdue.edu>
+           2000, Malte Starostik <malte@kde.org>
+           2011, Martin Koller <kollix@aon.at>
+           2000, Matthias Hoelzer-Kluepfel <mhk@caldera.de>
+           2023, Nicolas Fella <nicolas.fella@gmx.de>
+           2006, Pascal Létourneau <pascal.letourneau@kdemail.net>
+License: LGPL-2.0-or-later
+
+Files: po/*
+Copyright: 2024, A S Alam <aalam@punlinux.org>
+           2007-2024, A S Alam <aalam@users.sf.net>
+           2024, Adrián Chaves (Gallaecio)
+           2018-2024, Alexander Yavorsky <kekcuha@gmail.com>
+           2000, Caldera Systems Inc.
+           2008-2024, Eloy Cuadra <ecuadra@eloihr.net>
+           2022-2024, Emir SARI <emir_sari@icloud.com>
+           2023-2024, Enol P. <enolp@softastur.org>
+           2022-2023, enolp <enolp@softastur.org>
+           2014-2024, Freek de Kruijf <freekdekruijf@kde.nl>
+           2023-2024, Guðmundur Erlingsson <gudmundure@gmail.com>
+           2024, Iñigo Salvador Azurmendi <xalba@ni.eus>
+           2010-2024, Johannes Obermayr <johannesobermayr@gmx.de>
+           2024, Josep M. Ferrer <txemaq@gmail.com>
+           2005-2024, Jure Repinc <jlp@holodeck1.com>
+           2024, KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>
+           2023-2024, Kisaragi Hiu <mail@kisaragi-hiu.com>
+           2020-2024, Kishore G <kishore96@gmail.com>
+           2018-2024, Kristof Kiszel <kiszel.kristof@gmail.com>
+           2022-2024, Kristof Kiszel <ulysses@fsf.hu>
+           2011, Martin Koller <kollix@aon.at>
+           2024, Matjaž Jeran <matjaz.jeran@amis.net>
+           2022-2024, Mincho Kondarev <mkondarev@yahoo.de>
+           2005, Nicolas GOUTTE <goutte@kde.org>
+           2022-2024, Ryuichi Yamada <ryuichi_ya220@outlook.jp>
+           2007-2024, Shinjo Park <kde@peremen.name>
+           2004-2024, Stefan Asserhäll <stefan.asserhall@gmail.com>
+           2000, Stephan Kulow <coolo@kde.org>
+           2014-2024, Steve Allewell <steve.allewell@gmail.com>
+           2020-2024, Xavier Besnard <xavier.besnard@kde.org>
+           2024, Yaron Shahrabani <sh.yaron@gmail.com>
+           2008-2024, zayed <zayed.alsaidi@gmail.com>
+           2024, Zayed Al-Saidi <zayed.alsaidi@gmail.com>
+           2011-2024, Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>
+License: LGPL-2.0-or-later
+
+Files: thumbnail/imagefilter.cpp
+       thumbnail/imagefilter.h
+Copyright: 2006-2008, Fredrik Höglund <fredrik@kde.org>
+           2002-2005, Maxim Shemanarev <http://www.antigrain.com>
+           2006, Zack Rusin <zack@kde.org>
+License: BSD-2-Clause
+
+Files: cmake/FindIMobileDevice.cmake
+       cmake/FindLibmtp.cmake
+       cmake/Findlibssh.cmake
+       cmake/FindPList.cmake
+       cmake/FindSamba.cmake
+       cmake/FindTIRPC.cmake
+       smb/kded/CMakeLists.txt
+Copyright: 2006, Alexander Neundorf <neundorf@kde.org>
+           2009-2014, Andreas Schneider <asn@cryptomilk.org>
+           2017, Christophe Giboudeaux <christophe@krop.fr>
+           2021, Friedrich W. H. Kossebau <kossebau@kde.org>
+           2018-2020, Harald Sitter <sitter@kde.org>
+           2014, Jan Grulich <jgrulich@redhat.com>
+           2020, MBition GmbH
+License: BSD-3-Clause
+
+Files: .gitlab-ci.yml
+       .kde-ci.yml
+       mtp/shared/org.kde.kmtp.Lister.xml
+       smb/org.kde.kio.smb.xml
+Copyright: 2021, Harald Sitter <sitter@kde.org>
+           None
+License: CC0-1.0
+
+Files: fish/fish.cpp
+       fish/fish.h
+       fish/fish.pl
+Copyright: 2001, Jörg Walter <trouble@garni.ch>
+License: GPL-2.0-only
+
+Files: activities/autotests/ActivityBasicTest.cpp
+       activities/common/database/Database.cpp
+       activities/common/database/Database.h
+       activities/common/database/schema/ResourcesDatabaseSchema.cpp
+       activities/common/database/schema/ResourcesDatabaseSchema.h
+       activities/common/dbus/common.h
+       activities/common/specialvalues.h
+       activities/fileitemplugin/FileItemLinkingPluginActionLoader.cpp
+       activities/fileitemplugin/FileItemLinkingPluginActionLoader.h
+       activities/fileitemplugin/FileItemLinkingPlugin.cpp
+       activities/fileitemplugin/FileItemLinkingPlugin.h
+       activities/fileitemplugin/FileItemLinkingPlugin_p.h
+       activities/KioActivitiesApi.cpp
+       activities/KioActivitiesApi.h
+       activities/KioActivities.cpp
+       activities/KioActivities.h
+       activities/utils/d_ptr.h
+       activities/utils/d_ptr_implementation.h
+       activities/utils/qsqlquery_iterator.cpp
+       activities/utils/qsqlquery_iterator.h
+       kcms/webshortcuts/searchproviderregistry.cpp
+       kcms/webshortcuts/searchproviderregistry.h
+       smb/autotests/shouldresumetest.cpp
+       smb/autotests/smburltest.cpp
+       smb/autotests/transfertest.cpp
+       smb/kded/config.h.cmake
+       smb/kded/notifier.cpp
+       smb/kded/watcher.cpp
+       smb/transfer.cpp
+       smb/transfer.h
+       smb/transfer_resume.h
+       thumbnail/appimagecreator.cpp
+       thumbnail/appimagecreator.h
+       thumbnail/autotests/thumbnailtest.cpp
+       thumbnail/comiccreator.cpp
+       thumbnail/comiccreator.h
+Copyright: 2022, Alex Kuznetsov <alex@vxpro.io>
+           2017, David Faure <faure@kde.org>
+           2020-2022, Harald Sitter <sitter@kde.org>
+           2009, Harsh J <harsh@harshj.com>
+           2010-2016, Ivan Cukic <ivan.cukic@kde.org>
+           2018, Kai Uwe Broulik <kde@broulik.de>
+           2022, Nicolas Fella <nicolas.fella@gmx.de>
+License: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
+
+Files: afc/afcapp.cpp
+       afc/afcapp.h
+       afc/afcclient.cpp
+       afc/afcclient.h
+       afc/afcdevice.cpp
+       afc/afcdevice.h
+       afc/afcdiskusage.cpp
+       afc/afcdiskusage.h
+       afc/afcfile.cpp
+       afc/afcfile.h
+       afc/afcfilereader.cpp
+       afc/afcfilereader.h
+       afc/afcspringboard.cpp
+       afc/afcspringboard.h
+       afc/afcurl.cpp
+       afc/afcurl.h
+       afc/afcutils.cpp
+       afc/afcutils.h
+       afc/kio_afc.cpp
+       afc/kio_afc.h
+       filenamesearch/kio_filenamesearch.cpp
+       filenamesearch/kio_filenamesearch.h
+       kcms/trash/kcmtrash.cpp
+       kcms/trash/kcmtrash.h
+       kcms/webshortcuts/ikwsopts.cpp
+       kcms/webshortcuts/ikwsopts.h
+       kcms/webshortcuts/ikwsopts_p.h
+       kcms/webshortcuts/searchprovider.cpp
+       kcms/webshortcuts/searchproviderdlg.cpp
+       kcms/webshortcuts/searchproviderdlg.h
+       kcms/webshortcuts/searchprovider.h
+       mtp/kiod_module/kmtpd.cpp
+       mtp/kiod_module/kmtpd.h
+       mtp/kiod_module/mtpdevice.cpp
+       mtp/kiod_module/mtpdevice.h
+       mtp/kiod_module/mtpfile.h
+       mtp/kiod_module/mtpstorage.cpp
+       mtp/kiod_module/mtpstorage.h
+       mtp/kio_mtp.cpp
+       mtp/kio_mtp.h
+       smb/kio_smb_auth.cpp
+       smb/kio_smb_browse.cpp
+       smb/kio_smb_config.cpp
+       smb/kio_smb.cpp
+       smb/kio_smb_dir.cpp
+       smb/kio_smb_file.cpp
+       smb/kio_smb.h
+       smb/main.cpp
+       smb/smbauthenticator.cpp
+       smb/smbauthenticator.h
+       smb/smbcontext.cpp
+       smb/smbcontext.h
+       smb/smburl.cpp
+       thumbnail/icoutils_common.cpp
+       thumbnail/icoutils.h
+       thumbnail/icoutils_win.cpp
+       thumbnail/icoutils_wrestool.cpp
+       thumbnail/windowsexecreator.cpp
+       thumbnail/windowsexecreator.h
+       thumbnail/windowsimagecreator.cpp
+       thumbnail/windowsimagecreator.h
+Copyright: 2018, Andreas Krutzler <andreas.krutzler@gmx.net>
+           2013, Andrius da Costa Ribas <andriusmao@gmail.com>
+           2000, Caldera Systems Inc.
+           2001-2003, Dawit Alemayehu <adawit@kde.org>
+           2018-2023, Harald Sitter <sitter@kde.org>
+           2022, Kai Uwe Broulik <kde@broulik.de>
+           2000, Malte Starostik <malte@kde.org>
+           2009, Nick Shaforostoff <shaforostoff@kde.ru>
+           2009-2010, Pali Rohár <pali.rohar@gmail.com>
+           2010, Peter Penz <peter.penz19@gmail.com>
+           2012, Philipp Schmidt <philschmidt@gmx.net>
+           2008, Tobias Koenig <tokoe@kde.org>
+           2000, Yves Arrouye <yves@realnames.com>
+License: GPL-2.0-or-later
+Comment: Automatically extracted
+
+Files: smb/discovery.cpp
+       smb/discovery.h
+       smb/dnssddiscoverer.cpp
+       smb/dnssddiscoverer.h
+       smb/smbcdiscoverer.cpp
+       smb/smbcdiscoverer.h
+       smb/wsdiscoverer.cpp
+       smb/wsdiscoverer.h
+       smoketest/smoke.sh
+Copyright: 2019-2021, Harald Sitter <sitter@kde.org>
+License: GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
+
+Files: filenamesearch/kio_filenamesearch_p.h
+       kcms/proxy/kproxydlg.cpp
+       kcms/proxy/kproxydlg.h
+       kfileaudiopreview/kfileaudiopreview.cpp
+       kfileaudiopreview/kfileaudiopreview.h
+       kfileaudiopreview/mediacontrols.cpp
+       kfileaudiopreview/mediacontrols.h
+       kfileaudiopreview/mediacontrols_p.h
+Copyright: 2014, Alex Richardson <arichardson.kde@gmail.com>
+           2003, Carsten Pfeiffer <pfeiffer@kde.org>
+           2001-2011, Dawit Alemayehu <adawit@kde.org>
+           2006-2007, Matthias Kretz <kretz@kde.org>
+License: LGPL-2.0-only
+
+Files: thumbnail/audiocreator.cpp
+       thumbnail/audiocreator.h
+Copyright: 2016, Anthony Fieroni <bvbfan@abv.com>
+           2009, Vytautas Mickus <vmickus@gmail.com>
+License: LGPL-2.1-only
+
+Files: filenamesearch/kded/filenamesearchmodule.cpp
+       filenamesearch/kded/filenamesearchmodule.h
+       mtp/kiod_module/memory.h
+       mtp/kiod_module/mtplister.cpp
+       mtp/kiod_module/mtplister.h
+       mtp/shared/config-mtp.h.cmake
+       mtp/shared/kmtpdeviceinterface.cpp
+       mtp/shared/kmtpdeviceinterface.h
+       mtp/shared/kmtpdinterface.cpp
+       mtp/shared/kmtpdinterface.h
+       mtp/shared/kmtpfile.cpp
+       mtp/shared/kmtpfile.h
+       mtp/shared/kmtpstorageinterface.cpp
+       mtp/shared/kmtpstorageinterface.h
+       mtp/shared/org.kde.kmtp.daemon.xml
+       mtp/shared/org.kde.kmtp.device.xml
+       mtp/shared/org.kde.kmtp.storage.xml
+       recentlyused/forgetfileitemaction.cpp
+       recentlyused/forgetfileitemaction.h
+       recentlyused/recentlyused.cpp
+       recentlyused/recentlyused.h
+       thumbnail/ebookcreator.cpp
+       thumbnail/ebookcreator.h
+       thumbnail/opendocumentcreator.cpp
+       thumbnail/opendocumentcreator.h
+Copyright: 2018, Andreas Krutzler <andreas.krutzler@gmx.net>
+           2016, Anthony Fieroni <bvbfan@abv.bg>
+           2022-2023, Harald Sitter <sitter@kde.org>
+           2018-2019, Kai Uwe Broulik <kde@broulik.de>
+           2019-2022, Méven Car <meven.car@kdemail.net>
+License: LGPL-2.1-only OR LGPL-3.0-only OR LicenseRef-KDE-Accepted-LGPL
+Comment: Automatically extracted
+
+Files: po/ca/*
+       po/ca@valencia/*
+       po/uk/*
+Copyright: 2005-2007, Albert Astals Cid <aacid@kde.org>
+           2005, Aleix Pol Gonzàlez <aleixpol@gmail.com>
+           2000-2007, Andriy Rysin <arysin@bcsii.com>
+           2002-2022, Antoni Bella Pérez <antonibella5@yahoo.com>
+           2002-2005, Eugene Onischenko <oneugene@ukr.net>
+           2005-2008, Ivan Petrouchtchak <fr.ivan@ukrainian-orthodox.org>
+           2006-2024, Josep M. Ferrer <txemaq@gmail.com>
+           2009, Robert Millan <rmh@aybabtu.com>
+           1998-2006, Sebastià Pla i Sanz <sps@sastia.com>
+           2008-2024, Yuri Chornoivan <yurchor@ukr.net>
+License: LGPL-2.1-only OR LGPL-3.0-only OR LicenseRef-KDE-Accepted-LGPL
+Comment: Manually collected
+
+Files: thumbnail/djvucreator.cpp
+       thumbnail/djvucreator.h
+Copyright: 2020, Stefan Brüns <stefan.bruens@rwth-aachen.de>
+License: LGPL-2.1-or-later OR LicenseRef-KDE-Accepted-GPL
+
+Files: man/CMakeLists.txt
+       man/Messages.sh
+       man/man.json
+       man/man2html.cpp
+       man/man2html.h
+       man/requests.gperf
+       man/tests/*
+       info/*
+Copyright: 2011, Martin Koller <kollix@aon.at>
+           2005, Nicolas GOUTTE <goutte@kde.org>
+           2000, Stephan Kulow <coolo@kde.org>
+License: MIT
+Comment: Manually collected
+
+Files: filenamesearch/Messages.sh
+       filter/filter.cpp
+       filter/filter.h
+       info/info.cpp
+       info/info.h
+       info/Messages.sh
+       recentlyused/Messages.sh
+Copyright: 2008, David Faure <faure@kde.org>
+           1999-2000, Waldo Bastian <bastian@kde.org>
+License: MIT
+Comment: Automatically extracted
+
+Files: info/kde-info2html
+       info/kde-info2html.conf
+Copyright: Karl Guggisberg  <guggis@iam.unibe.ch>
+           1999, Matthias ELter <me@kde.org>
+License: GPL-2.0-or-later
+Comment: Manually collected
+
+Files: debian/*
+Copyright: 2022, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+           2014, Scarlett Clark <scarlett@scarlettgatelyclark.com>
+License: GPL-2.0-or-later
+
+License: BSD-2-Clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ .
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the
+    distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+ FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+ COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+ BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+ ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ POSSIBILITY OF SUCH DAMAGE.
+
+License: BSD-3-Clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ .
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the
+    distribution.
+ .
+ 3. Neither the name of the copyright holder nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+ FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+ COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+ BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+ ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ POSSIBILITY OF SUCH DAMAGE.
+
+License: CC0-1.0
+ To the extent possible under law, the author(s) have dedicated all
+ copyright and related and neighboring rights to this software to the
+ public domain worldwide. This software is distributed without any
+ warranty.
+ .
+ You should have received a copy of the CC0 Public Domain Dedication
+ along with this software. If not, see
+ <https://creativecommons.org/publicdomain/zero/1.0/>.
+ .
+ On Debian systems, the complete text of the CC0 Public Domain
+ Dedication can be found in `/usr/share/common-licenses/CC0-1.0’.
+
+License: GPL-2.0-only
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; version 2.
+ .
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ 02110-1301, USA. Also add information on how to contact you by
+ electronic and paper mail.
+ .
+ On Debian systems, the complete text of the GNU General Public
+ License version 2 can be found in
+ `/usr/share/common-licenses/GPL-2’.
+
+License: GPL-2.0-or-later
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ 02110-1301, USA. Also add information on how to contact you by
+ electronic and paper mail.
+ .
+ On Debian systems, the complete text of the GNU General Public
+ License version 2 can be found in
+ `/usr/share/common-licenses/GPL-2’.
+
+License: GPL-3.0-only
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GPL License as published by the Free
+ Software Foundation, version 3.
+ .
+ This package is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General Public
+ License version 3 can be found in
+ `/usr/share/common-licenses/GPL-3’.
+
+License: LGPL-2.0-only
+ This library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Library General Public License version
+ 2 as published by the Free Software Foundation.
+ .
+ This library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public
+ License along with this library; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+ 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Library General
+ Public License version 2 can be found in
+ `/usr/share/common-licenses/LGPL-2’.
+
+License: LGPL-2.0-or-later
+ This library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Library General Public License as
+ published by the Free Software Foundation; either version 2 of the
+ License, or (at your option)  any later version.
+ .
+ This library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public
+ License along with this library; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+ 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Library General
+ Public License version 2 can be found in
+ `/usr/share/common-licenses/LGPL-2’.
+
+License: LGPL-2.1-only
+ This library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License version
+ 2.1 as published by the Free Software Foundation.
+ .
+ This library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ 02110-1301  USA Also add information on how to contact you by
+ electronic and paper mail.
+ .
+ On Debian systems, the complete text of the GNU Lesser General
+ Public License version 2.1 can be found in
+ `/usr/share/common-licenses/LGPL-2.1’.
+
+License: LGPL-2.1-or-later
+ This library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as
+ published by the Free Software Foundation; either version 2.1 of the
+ License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ 02110-1301  USA Also add information on how to contact you by
+ electronic and paper mail.
+ .
+ On Debian systems, the complete text of the GNU Lesser General
+ Public License version 2.1 can be found in
+ `/usr/share/common-licenses/LGPL-2.1’.
+
+License: LGPL-3.0-only
+ This library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License version
+ 3 as published by the Free Software Foundation.
+ .
+ This library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library.  If not, see
+ <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU Lesser General
+ Public License version 3 can be found in
+ `/usr/share/common-licenses/LGPL-3’.
+
+License: LicenseRef-KDE-Accepted-GPL
+ This library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 3 of the license or (at
+ your option) at any later version that is accepted by the membership
+ of KDE e.V. (or its successor approved by the membership of KDE
+ e.V.), which shall act as a proxy as defined in Section 14 of
+ version 3 of the license.
+ .
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ General Public License for more details.
+
+License: LicenseRef-KDE-Accepted-LGPL
+ This library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as
+ published by the Free Software Foundation; either version 3 of the
+ license or (at your option) any later version that is accepted by
+ the membership of KDE e.V. (or its successor approved by the
+ membership of KDE e.V.), which shall act as a proxy as defined in
+ Section 6 of version 3 of the license.
+ .
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ General Public License for more details.
+
+License: MIT
+ Permission is hereby granted, free of charge, to any person
+ obtaining a copy of this software and associated documentation files
+ (the "Software"), to deal in the Software without restriction,
+ including without limitation the rights to use, copy, modify, merge,
+ publish, distribute, sublicense, and/or sell copies of the Software,
+ and to permit persons to whom the Software is furnished to do so,
+ subject to the following conditions:
+ .
+ The above copyright notice and this permission notice (including the
+ next paragraph) shall be included in all copies or substantial
+ portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+ BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
