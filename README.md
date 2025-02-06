@@ -10,6 +10,6 @@ You need to install for Debian Trixie these packages:
   
 4. Then download and manually install Kio Extras:
  
-    a. `apt install ./kio-extras_24.12.0-3_amd64.deb ./kio-extras-data_24.12.0-3_all.deb` or `dpkg -i ./kio-extras_24.12.0-3_amd64.deb ./kio-extras-data_24.12.0-3_all.deb`
+    `apt install ./kio-extras_24.12.0-3_amd64.deb ./kio-extras-data_24.12.0-3_all.deb` or `dpkg -i ./kio-extras_24.12.0-3_amd64.deb ./kio-extras-data_24.12.0-3_all.deb`
 
 5. Restart Doplhin and check if `smb://` is working.
